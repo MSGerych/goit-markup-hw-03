@@ -40,6 +40,22 @@ img{
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
+.header-container{
+    display: flex;
+}
+
+.header-navigation{
+    display: flex;
+}
+
+.header-list{
+    display: flex;
+    gap: 40px;
+}
+.logo{
+    margin-right: 76px;
+}
 .header-logo-studio{
         
     font-family: 'Raleway', sans-serif;
@@ -80,6 +96,7 @@ img{
 }
 .header-address{
     font-style: normal;
+    margin-left: auto;
 }
 .header-address-link{
     font-style: normal;
