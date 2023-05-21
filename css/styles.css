@@ -200,6 +200,12 @@ img{
     margin-bottom: 72px;
 }
 
+.section-second-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
 
 /* ----------OUR-TEAM-------- */
 .our-team{
