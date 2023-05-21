@@ -58,18 +58,7 @@ img{
 
 }
 
-.header-logo-studio{
-        
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #2E2F42;
-    margin-right: 76px;
-}
+
 
 .header-logo{
     
@@ -84,6 +73,19 @@ img{
     text-transform: uppercase;
     color:#4d5ae5
     
+}
+
+.header-logo-studio {
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    margin-right: 76px;
 }
 
 .header-link{
@@ -124,7 +126,6 @@ img{
     background: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-    margin-bottom: 120px;
 }
 
 .hero-container{
@@ -173,6 +174,19 @@ img{
 }
 .section-first-title{
     visibility: hidden;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .section-first-list{
     display: flex;
