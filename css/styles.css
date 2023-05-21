@@ -48,11 +48,14 @@ img{
 
 .header-navigation{
     display: flex;
+    align-items: center
 }
 
 .header-list{
     display: flex;
     gap: 40px;
+    align-items: center
+
 }
 .logo{
     margin-right: 76px;
@@ -90,6 +93,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
     
 }
 .header-link:hover, .header-link:focus {
@@ -137,7 +141,7 @@ img{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
-    width: 496px;
+    max-width: 496px;
     margin: 0 auto;
 
 }
@@ -153,7 +157,10 @@ img{
     color: #FFFFFF;
     cursor: pointer;
     margin: 0 auto;
-    width: 169px;
+    min-width: 169px;
+    height: 56px;
+    border: none; 
+    border-radius: 4px;
     
 }
 .hero-button:hover, .hero-button:focus{
@@ -162,9 +169,11 @@ img{
 
 /* -----------Section-first----------- */
 .section-first{
-    margin-bottom: 120px;
+    padding: 120px 0;
 }
-
+.section-first-title{
+    visibility: hidden;
+}
 .section-first-list{
     display: flex;
     gap: 24px;
@@ -188,7 +197,7 @@ img{
 
 /* ---------Section-second-------- */
 .section-second{
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 .section-second-heading{
     text-align: center;
@@ -233,6 +242,11 @@ img{
 }
 .our-team-item{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-card{
+    padding: 32px 16px 32px 16px;
 }
 .our-team-name{
     font-weight: 500;
@@ -240,12 +254,15 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    text-align: center;
+    margin-bottom: 8px;
 }
 .our-team-profesion{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 }
 
 
@@ -265,7 +282,9 @@ img{
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-logo-studio{
     font-family: 'Raleway', sans-serif;
@@ -283,7 +302,6 @@ img{
     line-height: 1.5x;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    margin-top: 16px;
     width: 264px;
 }
 
@@ -317,6 +335,8 @@ img{
 .button:hover, .button:focus {
     background: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
+
 }
 
 .navigation-list{
@@ -331,6 +351,8 @@ img{
 
 .navigation-item{
     border: 1px solid #E7E9FC;
+    padding: 32px 16px;
+    border-top: none;
 }
 .navigation-header{
     font-weight: 500;
@@ -338,8 +360,8 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-top: 32px;
-    padding-left: 16px;
+    margin-bottom: 8px;
+    
     
 }
 .navigation-text{
@@ -347,7 +369,5 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-top: 8px;
-    padding-left: 16px;
-    padding-bottom: 32px;
+    
 }
