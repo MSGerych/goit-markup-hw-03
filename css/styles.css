@@ -224,10 +224,14 @@ img{
     margin-bottom: 72px;
 }
 .our-team-list{
-    background-color: #FFFFFF
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
 }
 .our-team-item{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .our-team-name{
     font-weight: 500;
