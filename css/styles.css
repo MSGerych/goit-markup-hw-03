@@ -289,8 +289,11 @@ img{
 
 
 /*---------- css portfolio------------- */
-.navigation-buttons-list{
+.navigation-buttons{
     padding-top: 96px;
+    padding-bottom: 120px;
+}
+.navigation-buttons-list{
     margin-bottom: 72px;
     display: flex;
     justify-content: center;
@@ -309,10 +312,25 @@ img{
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     min-width: 78px; 
+    padding: 12px 24px 12px 24px;
 }
 .button:hover, .button:focus {
     background: #404BBF;
     color: #FFFFFF;
+}
+
+.navigation-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    align-items: flex-start;
+    flex-basis: calc(100%-48px)/3;
+    
+}
+
+.navigation-item{
+    border: 1px solid #E7E9FC;
 }
 .navigation-header{
     font-weight: 500;
@@ -320,6 +338,8 @@ img{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    margin-top: 32px;
+    padding-left: 16px;
     
 }
 .navigation-text{
@@ -327,4 +347,7 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
