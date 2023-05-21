@@ -48,13 +48,14 @@ img{
 
 .header-navigation{
     display: flex;
-    align-items: center
+    align-items: center;
+    gap: 76px;
 }
 
 .header-list{
     display: flex;
     gap: 40px;
-    align-items: center
+    align-items: center;
 
 }
 
@@ -88,9 +89,9 @@ img{
     
 }
 
-.logotype{
+/* .logotype {
     margin-right: 76px;
-}
+} */
 
 .header-link{
     font-style: normal;
