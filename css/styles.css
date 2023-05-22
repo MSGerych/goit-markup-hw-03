@@ -49,7 +49,7 @@ img{
 .header-navigation{
     display: flex;
     align-items: center;
-    gap: 76px;
+    
 }
 
 .header-list{
@@ -89,9 +89,9 @@ img{
     
 }
 
-/* .logotype {
+.logotype {
     margin-right: 76px;
-} */
+} 
 
 .header-link{
     font-style: normal;
