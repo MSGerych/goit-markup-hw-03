@@ -90,10 +90,6 @@ img{
     
 }
 
-/* .logotype {
-    margin-right: 76px;
-} */
-
 .header-link{
     font-style: normal;
     font-weight: 500;
@@ -181,6 +177,7 @@ img{
 .section-first-title{
     visibility: hidden;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -194,6 +191,7 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .section-first-list{
     display: flex;
     gap: 24px;
